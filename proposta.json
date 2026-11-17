@@ -1,0 +1,349 @@
+{
+  "slug": "taynara-fagundes",
+  "negocio": {
+    "nome": "Clínica Estética Taynara Fagundes",
+    "logo": "brand/logo.png",
+    "whatsapp": "5562993988571",
+    "funcionamento": {
+      "seg": "09:00-19:00",
+      "ter": "09:00-19:00",
+      "qua": "09:00-19:00",
+      "qui": "09:00-19:00",
+      "sex": "09:00-19:00",
+      "sab": "08:00-12:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Setor Oeste · Goiânia",
+        "endereco": "Edifício Lourenço Office – Av. T-7, 371, sala 2211 – Setor Oeste, Goiânia – GO, 74140-110",
+        "telefone": "(62) 99398-8571",
+        "horario": "Segunda a sexta, 9h às 19h · sábado, 8h às 12h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#583419",
+    "brand2": "#3E2310",
+    "ink": "#2E1D10",
+    "bg": "#FFFCF7",
+    "pulse": "#D9A92E",
+    "radius": "28px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Sarabun",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "A clínica",
+            "href": "#a-clinica"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética · Setor Oeste",
+        "h1": "Rosto, corpo e cabelo no mesmo andar",
+        "lead": "Toxina, peelings, drenagem, terapia capilar e laser, com a farmacêutica esteta Taynara Fagundes e equipe.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/taynara.jpg",
+        "imagemAlt": "Taynara Fagundes de blazer rosa em um dos consultórios da clínica",
+        "tarja": [
+          "4,9 no Google, 225 avaliações",
+          "Seis consultórios individuais",
+          "Abre aos sábados de manhã",
+          "Edifício Lourenço Office, Setor Oeste"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Microagulhamento",
+          "Peeling químico",
+          "Jato de plasma",
+          "Lipo de papada",
+          "Heccus",
+          "Drenagem",
+          "Terapia capilar",
+          "Depilação a laser"
+        ]
+      }
+    },
+    {
+      "custom": "blocos/casa.html"
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Por onde começar",
+        "lead": "Quatro frentes, mais de oitenta tratamentos. A avaliação diz qual combinação serve para você.",
+        "itens": [
+          {
+            "nome": "Rosto",
+            "descricao": "Toxina botulínica, microagulhamento, peeling químico e de diamante, jato de plasma, lipo de papada e limpeza de pele.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Corpo",
+            "descricao": "Drenagem com Heccus, endermoterapia, corrente russa, intradermoterapia de enzimas e lipo sem corte.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Cabelo",
+            "descricao": "Terapia capilar para queda e couro cabeludo: microagulhamento capilar (MMP) e intradermoterapia.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Depilação a laser",
+            "descricao": "Sessões em sala individual, feitas com calma, inclusive nas regiões mais sensíveis.",
+            "icone": "laser"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Retorno sem depender da memória",
+        "titulo": "A clínica lembra da sua toxina",
+        "lead": "O efeito da toxina tem prazo. Antes de passar, a recepção chama no WhatsApp e já oferece um horário, sem você precisar marcar no calendário.",
+        "cta": "Falar com a recepção",
+        "contato": "Clínica Taynara Fagundes",
+        "mensagens": [
+          {
+            "de": "clinica",
+            "texto": "Oi, Camila! Aqui é da Clínica Taynara Fagundes. Sua toxina foi aplicada em agosto."
+          },
+          {
+            "de": "clinica",
+            "texto": "Está chegando a época do retorno que a Dra. Taynara indicou. Quer que eu veja um horário pra você?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Nossa, nem lembrava! Quero sim. Sábado de manhã tem?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho sábado às 9h. Posso reservar?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Pode! Obrigada por avisar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "fita",
+      "data": {
+        "titulo": "Aparelhos da casa",
+        "itens": [
+          {
+            "nome": "Heccus",
+            "detalhe": "Ultrassom para drenagem e gordura localizada",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Criolipólise",
+            "detalhe": "Resfriamento para gordura localizada",
+            "icone": "gota"
+          },
+          {
+            "nome": "Laser de depilação",
+            "detalhe": "Redução dos pelos por sessões",
+            "icone": "laser"
+          },
+          {
+            "nome": "Jato de plasma",
+            "detalhe": "Base da blefaroplastia sem cortes",
+            "icone": "olho"
+          },
+          {
+            "nome": "Endermoterapia",
+            "detalhe": "Sucção e rolos para circulação e textura",
+            "icone": "mao"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/fundadora.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que as pacientes dizem no Google",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "225",
+            "rotulo": "avaliações",
+            "contar": 225
+          },
+          {
+            "valor": "13",
+            "rotulo": "delas falam da equipe",
+            "contar": 13
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Nas palavras de quem passou por lá",
+        "itens": [
+          {
+            "texto": "Desde a recepção até o consultório, toda a equipe foi muito educada, atenciosa e profissional. Me senti acolhida e bem cuidada durante todo o processo.",
+            "autor": "Bárbara S.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Procedimentos com total segurança e resultados de verdade. Grata pelas drenagens feitas pela profissional Kelly, mãos de fada!",
+            "autor": "Keila D.",
+            "contexto": "Drenagem · Google"
+          },
+          {
+            "texto": "As profissionais sempre tentam fazer de tudo pra ajustar horários. São muito solícitas.",
+            "autor": "Isabela A.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "A equipe explica cada procedimento com clareza e respeita as necessidades de cada um. O ambiente é acolhedor e organizado.",
+            "autor": "Ediane V.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "itens": [
+          {
+            "imagem": "midia/recepcao-logo.jpg",
+            "legenda": "Recepção"
+          },
+          {
+            "imagem": "midia/taynara-laser.jpg",
+            "legenda": "Sala do laser"
+          },
+          {
+            "imagem": "midia/espera.jpg",
+            "legenda": "Espera e cantinho do café"
+          },
+          {
+            "imagem": "midia/sala.jpg",
+            "legenda": "Um dos seis consultórios"
+          },
+          {
+            "imagem": "midia/espelho.jpg",
+            "legenda": "Consultório da Taynara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas que chegam no WhatsApp",
+        "itens": [
+          {
+            "p": "Preciso de avaliação antes do procedimento?",
+            "r": "Sim. Na avaliação a profissional olha o seu caso e monta o plano, com número de sessões e intervalo entre elas."
+          },
+          {
+            "p": "Quanto tempo dura o efeito da toxina?",
+            "r": "Varia de pessoa para pessoa. Na aplicação a clínica indica a época do retorno."
+          },
+          {
+            "p": "A clínica atende homens?",
+            "r": "Sim. O atendimento é aberto ao público feminino e masculino, inclusive na depilação a laser."
+          },
+          {
+            "p": "Abre aos sábados?",
+            "r": "Sim, das 8h ao meio-dia. De segunda a sexta, das 9h às 19h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Edifício Lourenço Office, Setor Oeste",
+        "imagem": "midia/recepcao-logo.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp se é rosto, corpo, cabelo ou laser. A recepção encontra um horário, inclusive no sábado.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "A clínica",
+            "href": "#a-clinica"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Clínica Estética Taynara Fagundes · Goiânia, GO. Resultados variam de pessoa para pessoa; a indicação de cada procedimento é feita na avaliação."
+      }
+    }
+  ]
+}

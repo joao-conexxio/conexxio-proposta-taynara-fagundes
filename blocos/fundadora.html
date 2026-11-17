@@ -1,0 +1,36 @@
+<section class="blk-fund" id="fundadora">
+  <div class="wrap">
+    <figure class="blk-fund__foto" data-reveal>
+      <!--foto:midia/taynara-mesa.jpg|Taynara Fagundes sentada à mesa do consultório, de blazer preto, sorrindo-->
+    </figure>
+    <div class="blk-fund__texto">
+      <p class="blk-fund__eyebrow" data-reveal>Quem está à frente</p>
+      <h2 class="blk-fund__titulo" data-reveal>Taynara Fagundes, farmacêutica esteta</h2>
+      <p class="blk-fund__lead" data-acende>Pós-graduada em Saúde Estética Avançada e com mais de sete anos de experiência, a Taynara é a dona da clínica e coordena uma equipe de profissionais habilitadas. O plano de cada paciente sai da avaliação, com o que faz sentido para o caso dela.</p>
+      <ul class="blk-fund__equipe">
+        <li data-reveal style="--d:0ms"><span class="blk-fund__ic"><!--icone:seringa--></span><div><strong>Farmacêutica esteta</strong><span>Injetáveis, toxina e protocolos faciais</span></div></li>
+        <li data-reveal style="--d:120ms"><span class="blk-fund__ic"><!--icone:microscopio--></span><div><strong>Biomédicas estetas</strong><span>Tratamentos faciais, corporais e capilares</span></div></li>
+        <li data-reveal style="--d:240ms"><span class="blk-fund__ic"><!--icone:mao--></span><div><strong>Esteticista</strong><span>Drenagem, limpeza de pele e terapias manuais</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-fund{padding-block:var(--sp-section)}
+.blk-fund__foto{margin:0 0 var(--sp-4)}
+.blk-fund__foto img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius)}
+.blk-fund__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-fund__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-fund__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.12rem;line-height:1.65;color:var(--ink);max-width:36rem}
+.blk-fund__equipe{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-fund__equipe li{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-2);align-items:start;padding-top:var(--sp-2);border-top:1px solid color-mix(in srgb,var(--ink) 16%,transparent)}
+.blk-fund__equipe strong{display:block;font-family:var(--f-display);font-size:1.3rem;font-weight:500;color:var(--ink)}
+.blk-fund__equipe span{color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-fund__ic{display:inline-flex;width:2.25rem;height:2.25rem;color:var(--brand)}
+.blk-fund__ic svg{width:100%;height:100%}
+@media (min-width:900px){
+  .blk-fund .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:var(--sp-6);align-items:center}
+  .blk-fund__foto{margin:0}
+}
+</style>

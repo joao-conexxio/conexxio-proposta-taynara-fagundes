@@ -1,0 +1,38 @@
+<section class="blk-casa" id="a-clinica">
+  <div class="wrap">
+    <div class="blk-casa__texto">
+      <p class="blk-casa__eyebrow" data-reveal>A clínica por dentro</p>
+      <h2 class="blk-casa__titulo" data-reveal>Seis consultórios e um cantinho do café</h2>
+      <p class="blk-casa__lead" data-acende>No Edifício Lourenço Office, a clínica divide o andar em salas individuais, cada uma preparada para um tipo de atendimento. Você espera na recepção, toma um café e é chamada para a sua sala. Ninguém atende duas pessoas no mesmo espaço.</p>
+      <ul class="blk-casa__fatos">
+        <li data-reveal style="--d:0ms"><strong data-count="6">6</strong><span>consultórios individuais</span></li>
+        <li data-reveal style="--d:120ms"><strong>4</strong><span>frentes: rosto, corpo, cabelo e depilação a laser</span></li>
+        <li data-reveal style="--d:240ms"><strong>80+</strong><span>tratamentos no cardápio da casa</span></li>
+      </ul>
+    </div>
+    <div class="blk-casa__fotos">
+      <figure class="blk-casa__f1" data-reveal><!--foto:midia/recepcao-logo.jpg|Recepção da clínica com balcão de madeira iluminado e o logo dourado Taynara Fagundes na parede--></figure>
+      <figure class="blk-casa__f2" data-reveal style="--d:160ms"><!--foto:midia/espera.jpg|Sala de espera com poltronas claras, luminária de anéis dourados e cantinho do café--></figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-casa{padding-block:var(--sp-section)}
+.blk-casa__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-casa__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-casa__lead{margin:var(--sp-3) 0 var(--sp-4);font-size:1.12rem;line-height:1.65;color:var(--ink);max-width:36rem}
+.blk-casa__fatos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-casa__fatos li{display:grid;grid-template-columns:4.5rem 1fr;gap:var(--sp-2);align-items:baseline;padding-top:var(--sp-2);border-top:1px solid color-mix(in srgb,var(--ink) 16%,transparent)}
+.blk-casa__fatos strong{font-family:var(--f-display);font-size:2.4rem;font-weight:500;line-height:1;color:var(--brand)}
+.blk-casa__fatos span{color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-casa__fotos{margin-top:var(--sp-5);display:grid;grid-template-columns:1.1fr .9fr;gap:var(--sp-2);align-items:end}
+.blk-casa__fotos figure{margin:0}
+.blk-casa__fotos img{display:block;width:100%;object-fit:cover;border-radius:var(--radius)}
+.blk-casa__f1 img{aspect-ratio:3/5}
+.blk-casa__f2 img{aspect-ratio:3/4}
+@media (min-width:900px){
+  .blk-casa .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--sp-6);align-items:center}
+  .blk-casa__fotos{margin-top:0}
+}
+</style>
